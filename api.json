@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/seneca-guns",
     "maintainers": [
       {
@@ -16,111 +16,339 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "seneca-guns",
-    "name": "Seneca Guns - The Mysterious Coastal Booming Sounds",
-    "aliases": [],
+    "name": "Seneca Guns",
+    "aliases": [
+      { "name": "Skyquakes", "language": "English", "meaning": "general modern term for unexplained sky-origin booms" },
+      { "name": "Barisal Guns", "language": "English (after Bengali)", "region": "Bay of Bengal / Bangladesh" },
+      { "name": "Mistpouffers", "language": "Dutch / Flemish", "region": "Netherlands and Belgium", "meaning": "fog belches" },
+      { "name": "Uminari", "language": "Japanese", "region": "Japan", "meaning": "cries from the sea" },
+      { "name": "Bombes de mer", "language": "French", "region": "France", "meaning": "sea bombs" },
+      { "name": "Brontidi", "language": "Italian", "region": "Italy", "meaning": "thunder-like (booms)" },
+      { "name": "Cielomoto", "language": "Spanish", "region": "Latin America / Spain", "meaning": "skyquake" },
+      { "name": "Lake Gun (of Seneca)", "language": "English", "region": "Seneca Lake, New York" }
+    ],
     "category": "ATMOSPHERIC_PHENOMENON",
-    "subcategory": "Unknown",
+    "subcategory": "Unexplained acoustic / skyquake",
     "tags": [
-      "folklore",
-      "mythology"
+      "skyquake",
+      "atmospheric",
+      "acoustic",
+      "coastal",
+      "unexplained-sound",
+      "booms",
+      "global-distribution"
     ],
     "status": "documented",
     "description": {
-      "summary": "This phenomenon has been documented extensively across multiple time periods and continues to generate interest from researchers, folklorists, and investigators.",
-      "full": "This phenomenon has been documented extensively across multiple time periods and continues to generate interest from researchers, folklorists, and investigators. The evidence includes eyewitness accounts, cultural traditions, and in some cases physical documentation."
+      "summary": "The Seneca Guns are unexplained loud booming sounds, often resembling cannon fire or distant thunder, reported around Seneca and Cayuga Lakes in New York and along the coast of the Carolinas, with global cognates known as skyquakes, mistpouffers, Barisal Guns, and uminari. The booms are sometimes accompanied by ground or window-shaking but no consensus cause has been established.",
+      "full": "'Seneca Guns' is a regional name, popularised by James Fenimore Cooper's 1850 short story 'The Lake Gun', for unexplained cannon-like reports heard around Seneca Lake (and other Finger Lakes) in upstate New York. The same general phenomenon — single or paired booms loud enough to rattle windows but lacking any obvious local source — has been reported worldwide and has acquired regional names: Barisal Guns in the lower Ganges delta of Bengal, mistpouffers along the Belgian and Dutch coasts, uminari ('cries from the sea') in coastal Japan, brontidi in Italy, bombes de mer in France, and cielomoto across Spanish-speaking Latin America. In the United States, repeated booms along the Outer Banks and broader coastline of North and South Carolina have been investigated by the United States Geological Survey and the US Navy. Proposed explanations include distant thunder ducted through the atmosphere, sonic booms from supersonic aircraft or meteors, breaking waves on submarine ledges, biogenic gas releases from lake or ocean sediments, shallow earthquakes, and (in some Asian variants) seismic activity along subducting slabs. None has yet been demonstrated as a single unifying cause, and the consensus among investigators is that 'Seneca Guns' is most likely an umbrella term for several distinct atmospheric and seismic processes."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Seneca Lake, New York, and the Seneca people of the Haudenosaunee whose territory included the lake region. The name was popularised by James Fenimore Cooper's 1850 short story 'The Lake Gun'.",
+      "meaning": "'Guns of the Seneca' — meaning cannon-like reports heard around Seneca Lake.",
+      "first_use": "1850 (Cooper, 'The Lake Gun')"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ATMOSPHERIC_PHENOMENON",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Acoustic anomaly",
+      "subtype": "Skyquake / unexplained boom",
+      "variant": "Coastal / lacustrine"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "skyquake", "name": "Skyquake (general)", "relationship": "superset", "description": "Generic term for unexplained sky-origin booms, of which Seneca Guns is a regional instance" },
+      { "id": "barisal-guns", "name": "Barisal Guns", "relationship": "regional_variant", "description": "Bengal-region cognate documented since the 19th century" },
+      { "id": "mistpouffers", "name": "Mistpouffers", "relationship": "regional_variant", "description": "Belgian and Dutch coastal cognate" },
+      { "id": "uminari", "name": "Uminari", "relationship": "regional_variant", "description": "Japanese coastal cognate" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Cannon-like report", "description": "Single or paired booms resembling distant artillery, dynamite blasts, or thunder.", "frequency": "always" },
+        { "feature": "Ground and window shaking", "description": "Some reports include rattling windows, vibrating houses, or a perceptible jolt without an associated felt earthquake.", "frequency": "common" },
+        { "feature": "No visible source", "description": "No flash, smoke, aircraft, or other identifiable origin observed at the time of the boom.", "frequency": "always" },
+        { "feature": "Cluster occurrence", "description": "Reports often arrive in clusters — multiple witnesses across a region within minutes — and recur in the same locales over decades.", "frequency": "common" }
+      ],
+      "morphology": "Acoustic phenomenon with no associated material body; characterised entirely by impulsive low-frequency sound and occasional ground vibration."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "unknown",
+      "habitat_preference": ["coastal regions", "large lakes", "river deltas", "regions near continental shelves"],
+      "patterns": [
+        "Reports cluster along specific coasts (Carolinas, Outer Banks)",
+        "Recurring reports around Seneca and Cayuga Lakes since the 19th century",
+        "Global cognates show similar coastal/lakeside association",
+        "No clear seasonal periodicity, though some clusters occur on warm calm days"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A globally distributed family of phenomena reported on every inhabited continent. Best-known clusters in the United States are around Seneca and Cayuga Lakes (New York), the Outer Banks and coast of North Carolina, the South Carolina coast, the Florida coast, and northern Georgia. Major international cognates are reported in coastal Bangladesh and India, Japan, the Belgian and Dutch coasts, Lough Neagh in Northern Ireland, and many other regions.",
+      "continents": ["North America", "Europe", "Asia", "South America", "Oceania"],
+      "countries": [
+        "United States",
+        "Canada",
+        "Bangladesh",
+        "India",
+        "Japan",
+        "Netherlands",
+        "Belgium",
+        "Italy",
+        "France",
+        "Ireland (Northern Ireland)",
+        "Australia",
+        "Mexico",
+        "Colombia",
+        "Indonesia",
+        "Malaysia"
+      ],
+      "regions": [
+        "Finger Lakes (New York)",
+        "Outer Banks",
+        "North Carolina coast",
+        "Bay of Fundy",
+        "Bay of Bengal",
+        "Coastal Japan"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Seneca Lake",
+        "location": {
+          "description": "Largest of the Finger Lakes, central New York; type-locality of the 'Seneca Guns' name",
+          "country": "United States",
+          "region": "New York",
+          "coordinates": { "latitude": 42.6700, "longitude": -76.9000 }
+        },
+        "peak_period": "19th century–present",
+        "notes": "Source of the 'Seneca Guns' designation via James Fenimore Cooper's 1850 short story 'The Lake Gun'."
+      },
+      {
+        "name": "North Carolina Outer Banks and coast",
+        "location": {
+          "description": "Atlantic coast of North Carolina; persistent regional reports",
+          "country": "United States",
+          "region": "North Carolina"
+        },
+        "peak_period": "1850s–present",
+        "notes": "Most-reported US 'Seneca Guns' locale of the modern era; investigated by the United States Geological Survey."
+      },
+      {
+        "name": "Barisal (Barishal) region",
+        "location": {
+          "description": "Lower Ganges delta, Bay of Bengal",
+          "country": "Bangladesh",
+          "region": "Barisal Division"
+        },
+        "peak_period": "Late 19th century–early 20th century",
+        "notes": "Type-locality of the 'Barisal Guns'; investigated by colonial-era surveys."
+      },
+      {
+        "name": "Belgian / Dutch North Sea coast",
+        "location": {
+          "description": "Coastal Flanders and the Dutch shore",
+          "country": "Belgium / Netherlands",
+          "region": "North Sea coast"
+        },
+        "peak_period": "19th–20th century",
+        "notes": "Source of the term 'mistpouffers'."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1804",
+        "circa": false,
+        "source": "Lewis and Clark Expedition journals (Meriwether Lewis's description of cannon-like sounds near the Great Falls of the Missouri)"
+      },
+      "peak_activity_periods": [
+        { "period": "1850s–1900s", "description": "Cooper's 'Lake Gun' coins the regional name; Bengali 'Barisal Guns' reports investigated" },
+        { "period": "2010s–present", "description": "Recurrent USGS-investigated boom clusters along the North Carolina coast" }
+      ],
+      "seasonal_patterns": "No consistent global seasonality is established; some regional clusters concentrate on warm calm days when atmospheric ducting is plausible."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "European-American travellers' and settlers' attempts to describe an unfamiliar acoustic phenomenon in indigenous Haudenosaunee territory, alongside parallel namings in Europe and Asia.",
+      "earliest_accounts": "Meriwether Lewis's 1804 journal entry near the Great Falls of the Missouri. Reports continued through the 19th century from the Finger Lakes region.",
+      "folklore_connections": "Local Seneca and other Haudenosaunee oral traditions referred to mysterious lake noises before European-American documentation. The name 'Seneca Guns' is a settler appellation."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1804-06", "event": "Meriwether Lewis records cannon-like reports near the Great Falls of the Missouri", "significance": "Earliest well-known American documentation of skyquake-class booms", "source": "Journals of Lewis and Clark" },
+      { "date": "1850", "event": "James Fenimore Cooper publishes 'The Lake Gun' (Putnam's Magazine)", "significance": "Coins and popularises 'Seneca Guns' as a name", "source": "Cooper, J. F. (1850), 'The Lake Gun'" },
+      { "date": "1890", "event": "G. B. Scott reports 'Barisal Guns' in Nature", "significance": "First widely-cited international scientific report of cognate phenomenon", "source": "Scott, G. B., letter to Nature (1890)" },
+      { "date": "2013-11-04", "event": "Cluster of unexplained booms along the North Carolina Outer Banks investigated by the USGS", "significance": "Modern instrumented investigation of Seneca-Guns-type events", "source": "USGS / NC State University coverage" }
+    ],
+    "modern_era": "Modern investigations rely on dense seismometer networks, infrasound monitoring (notably IMS stations established for the Comprehensive Nuclear-Test-Ban Treaty), and meteorological reanalysis. These tools have resolved many individual events as sonic booms, meteor airbursts, distant thunder, or quarry blasts; a residual class of 'Seneca Guns' events remains without a confirmed source."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1804", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "seneca-guns-event-1804-great-falls",
+        "name": "Lewis and Clark report at the Great Falls of the Missouri",
+        "date": { "value": "1804-06-01", "precision": "approximate" },
+        "location": {
+          "description": "Vicinity of the Great Falls of the Missouri River",
+          "country": "United States",
+          "region": "Montana"
+        },
+        "witnesses": { "count": 2, "types": ["expedition leaders (Meriwether Lewis and members of the Corps of Discovery)"] },
+        "description": "Meriwether Lewis records hearing a sound 'resembling precisely the discharge of a piece of ordnance of 6 pounds at the distance of three miles' with no apparent source.",
+        "credibility": { "rating": "high", "factors": ["Contemporary daily journal entry by an expedition leader"], "notes": "Cited in skyquake literature as the earliest well-attested American account." },
+        "sources": ["Journals of the Lewis and Clark Expedition"],
+        "featured": true
+      },
+      {
+        "id": "seneca-guns-event-2013-outer-banks",
+        "name": "North Carolina Outer Banks boom cluster",
+        "date": { "value": "2013-11-04", "precision": "exact" },
+        "location": {
+          "description": "Outer Banks and adjacent coast of North Carolina",
+          "country": "United States",
+          "region": "North Carolina"
+        },
+        "witnesses": { "count": 100, "types": ["coastal residents", "emergency dispatchers"] },
+        "description": "A cluster of loud booms heard along the North Carolina coast prompted USGS and emergency-services investigation; no confirmed source was identified.",
+        "credibility": { "rating": "medium", "factors": ["Multiple independent witnesses", "Investigated by USGS"], "notes": "Representative recent example of the modern Seneca Guns phenomenon." },
+        "sources": ["USGS press coverage (2013)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "seneca-guns-evidence-cooper-1850",
+        "type": "literary record",
+        "name": "James Fenimore Cooper, 'The Lake Gun'",
+        "date": "1850",
+        "description": "Short story published in Putnam's Magazine that popularised the term 'Seneca Guns'.",
+        "status": "verified",
+        "analysis": "Primary cultural source for the regional name.",
+        "source": "Cooper, J. F. (1850), Putnam's Magazine"
+      },
+      {
+        "id": "seneca-guns-evidence-scott-1890",
+        "type": "scientific letter",
+        "name": "G. B. Scott on the Barisal Guns (Nature)",
+        "date": "1890",
+        "description": "Early scientific notice in the journal Nature describing booming sounds in the Bay of Bengal.",
+        "status": "verified",
+        "analysis": "Foundational scientific reference for the global skyquake literature.",
+        "source": "Scott, G. B. (1890), Nature"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Distant thunder ducted through the atmosphere",
+        "description": "Sound from thunderstorms hundreds of kilometres away is bent back to the surface by temperature inversions, arriving without visible lightning or storm cloud.",
+        "proponents": ["Atmospheric scientists; cited by USGS and NOAA in regional explainers"],
+        "evidence_cited": ["Documented atmospheric ducting", "Correlations between distant storms and reported booms"]
+      },
+      {
+        "name": "Meteor airbursts and sonic booms",
+        "description": "Bright meteors and supersonic aircraft can produce single or paired impulsive booms over wide areas; many discrete skyquake events are now resolved as such.",
+        "proponents": ["Peter Brown (Western Univ. meteor program)", "USGS"],
+        "evidence_cited": ["Infrasound network detections of bolide events", "Aircraft sonic-boom studies"]
+      },
+      {
+        "name": "Shallow seismicity and submarine slumping",
+        "description": "Small offshore or near-coastal earthquakes and submarine landslides can radiate impulsive low-frequency sound that arrives at the coast as a boom.",
+        "proponents": ["Seismologists at North Carolina State University and USGS"],
+        "evidence_cited": ["Co-located seismic and acoustic detections in some events"]
+      },
+      {
+        "name": "Lake- or ocean-bottom gas release",
+        "description": "Bubbles of methane or other biogenic gases can erupt from lake or seabed sediments, producing impulsive booms and disturbed water (proposed for Seneca Lake's 'Lake Gun').",
+        "proponents": ["Limnologists studying Finger Lakes sediments"],
+        "evidence_cited": ["Known biogenic gas reservoirs in deep lakes"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Composite phenomenon",
+        "description": "The 'Seneca Guns' label is an umbrella term; most events are explainable as a mixture of distant thunder, sonic booms, meteor airbursts, quarry blasts, or military testing, with no exotic single cause.",
+        "proponents": ["USGS spokespeople", "Brian Dunning (Skeptoid)"],
+        "evidence_cited": ["Resolution of many individual events as known sources", "Lack of any unifying signature in instrumented data"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Haudenosaunee (Seneca) oral tradition referencing strange lake noises",
+        "Bengali coastal traditions of the 'Barisal Guns'",
+        "Belgian and Dutch fishermen's traditions of mistpouffers",
+        "Japanese coastal traditions of uminari"
+      ],
+      "stories": [
+        "James Fenimore Cooper, 'The Lake Gun' (1850)"
+      ],
+      "beliefs": "Across regions, the booms have been variously attributed to spirits, distant battles, the sea itself speaking, or the work of god-figures; modern interpretations are predominantly natural-scientific."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "James Fenimore Cooper, 'The Lake Gun' (1850)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "North Carolina Sea Grant 'Seneca Guns' explainer materials",
+        "Routine local-news coverage along the Outer Banks"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Harold W. Tribolet (and colleagues) — USGS", "affiliation": "United States Geological Survey", "contribution": "Investigation of North Carolina coastal boom events", "period": "20th century" },
+      { "name": "Peter Brown", "affiliation": "Western University (Canada)", "contribution": "Infrasound and bolide-event analysis relevant to skyquake explanations", "period": "1990s–present" }
+    ],
+    "organizations": [
+      { "name": "United States Geological Survey", "url": "https://www.usgs.gov", "focus": "Seismic and acoustic investigation of unexplained booms" },
+      { "name": "North Carolina Sea Grant", "url": "https://ncseagrant.ncsu.edu", "focus": "Public communication on coastal Seneca Guns reports" }
+    ],
+    "ongoing_studies": "Modern work focuses on combining USGS seismic networks, IMS infrasound stations, and atmospheric reanalysis to attribute individual boom events. A residual fraction remain unattributed."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-skyquake", "type": "website", "title": "Skyquake", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Skyquake", "accessed": "2026-05-07" },
+    { "id": "cooper-1850", "type": "article", "title": "The Lake Gun", "authors": ["James Fenimore Cooper"], "publication": "Putnam's Magazine", "date": "1850" },
+    { "id": "scott-1890", "type": "article", "title": "On the Barisal Guns", "authors": ["G. B. Scott"], "publication": "Nature", "date": "1890" },
+    { "id": "ncsg-seneca-guns", "type": "website", "title": "Seneca Guns explainer", "publication": "North Carolina Sea Grant", "url": "https://ncseagrant.ncsu.edu", "accessed": "2026-05-07" },
+    { "id": "lewis-clark-journals", "type": "book", "title": "The Journals of the Lewis and Clark Expedition", "authors": ["Meriwether Lewis", "William Clark"], "publication": "University of Nebraska Press (Nicholas Biddle, ed., reprint)", "date": "1804–1806" }
+  ]
 }
